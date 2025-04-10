@@ -1,0 +1,165 @@
+/* Personalização de cores de acordo com a referência */
+:root {
+  /* Paleta primária */
+  --cor-primaria-1: #b2dfd0;
+  --cor-primaria-2: #54b8bd;
+  --cor-primaria-3: #2da39c;
+  --cor-primaria-4: #1e6f64;
+
+  /* Paleta secundária */
+  --cor-secundaria-1: #f3c97e;
+  --cor-secundaria-2: #f1b655;
+  --cor-secundaria-3: #e29b3e;
+  --cor-secundaria-4: #9c763f;
+  --cor-secundaria-5: #f2b653;
+
+  /* Complementares */
+  --cor-comp-100: #ffcf99;
+  --cor-comp-200: #de8787;
+  --cor-comp-300: #87deac;
+}
+
+/* Atribuiçao de cores e tamanhos de acordo com a referência */
+
+.texto-pequeno {
+  color: var(--cor-secundaria-3);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.botao-agendamento {
+  background-color: var(--cor-primaria-2);
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.botao-agendamento:hover {
+  background-color: var(--cor-primaria-3);
+}
+
+.botao-agendamento-nav {
+  border-color: var(--cor-primaria-2);
+  color: var(--cor-primaria-2);
+  transition: background-color 0.3s ease;
+}
+.botao-agendamento-nav:hover {
+  background-color: var(--cor-primaria-2);
+}
+
+.especialidades {
+  text-decoration-color: var(--cor-primaria-2);
+}
+
+.descricao-especialidade {
+  background-color: var(--cor-primaria-2);
+  color: white;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  width: 16px;
+}
+
+.section-spacing {
+  padding-top: 8.5rem;
+  padding-bottom: 8.5rem;
+}
+
+.especialidades h5 {
+  color: var(--cor-primaria-2);
+  min-height: 3rem;
+}
+
+.especialidades p {
+  background-color: var(--cor-primaria-2);
+  color: #fff;
+  margin-bottom: 0;
+  min-height: 110px;
+}
+
+.icons-especialidades {
+  width: 50px;
+  height: auto;
+}
+
+.logo {
+  height: 40px;
+}
+
+.contato {
+  background-color: var(--cor-secundaria-5);
+}
+
+.botao-contato {
+  background-color: #fff;
+  color: var(--cor-primaria-4);
+  transition: background-color 0.3s ease;
+}
+
+.botao-contato:hover {
+  background-color: var(--cor-primaria-3);
+}
+
+/* Animações na página */
+
+.fade-out {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: all 0.5s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.6s ease-out;
+}
+
+.text-up {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 1.2s ease-out;
+}
+
+.img-zoom {
+  opacity: 0;
+  transform: scale(0.85);
+  transition: all 1.4s ease-out;
+}
+
+.active-text-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.active-img-zoom {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.delay-1 {
+  transition-delay: 0.4s;
+}
+.delay-2 {
+  transition-delay: 0.6s;
+}
+.delay-3 {
+  transition-delay: 0.8s;
+}
+.delay-4 {
+  transition-delay: 1s;
+}
+.delay-5 {
+  transition-delay: 1.2s;
+}
+
+/* Personalização */
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Mulish";
+}
