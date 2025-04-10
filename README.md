@@ -38,7 +38,7 @@ cd landing-page-odonto
 ## 🌍 Deploy
 
 A landing page está publicada e disponível aqui:  
-🔗 [https://kerlenmelo.github.io/landing-page-odonto](https://kerlenmelo.github.io/landing-page-odonto)
+🔗 https://landing-page-odonto-one.vercel.app
 
 ---
 
