@@ -1,6 +1,6 @@
 # Odonto Lins - Landing Page 🦷
 
-Uma landing page moderna e responsiva, como parte do desafio técnico da empresa **Connecta Tecnologia**.
+Uma landing page moderna e responsiva, como parte do desafio técnico para uma empresa.
 Projetada para a clínica fictícia **Odonto Lins**, com foco em conversão, performance e experiência do usuário.
 
 ## 📸 Demonstração
